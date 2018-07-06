@@ -17,4 +17,12 @@ public class LogUtil {
             Log.i(tag, msg);
         }
     }
+
+    public static void w(String tag, String msg) {
+        if (DEBUG) {
+            Log.w(tag, msg);
+        }
+        //add some commit desc
+        //add other commit desc
+    }
 }
