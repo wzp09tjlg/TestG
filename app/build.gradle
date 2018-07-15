@@ -22,4 +22,8 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:27.0.0'
     implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+
+    annotationProcessor 'com.didi.sofa:permission-compiler:0.0.9'
+
+    implementation 'com.didi.sofa:permission-helper:0.1.4-SNAPSHOT'
 }
